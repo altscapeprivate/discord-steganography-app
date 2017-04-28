@@ -1,2 +1,2 @@
-EMAIL = email
-PASS = pass
+EMAIL = 'email'
+PASS = 'pass'

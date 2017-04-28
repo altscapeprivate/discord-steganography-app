@@ -64,8 +64,8 @@ def space(args):
 def encode(args):
 	message = args[1]
 	secret = args[0]
-	encoded = '\\\\'.join(steg.hide_message(secret,message))
-	return encoded
+	encoded = steg.hide_message(secret,message)
+	return '\\\\' + encoded
 	
 def define(args):	
 	name = args[0]
